@@ -20,6 +20,17 @@ Angular using plain JavaScript is extremely hard. And to be honest: TypeScript w
 standard ‘language’ to be used when developing Angular 2 applications. So I definitely
 recommend using TypeScript
 
+### Insatalling TypeScript
+```
+npm install -g typescript
+```
+
+### ***Compile using TypeScript***
+
+```
+tsc filename.ts
+```
+
 ## ***Using Types***
  TypeScripts - well - `strong typing allows us to define types for our variables and class members`
  >The compiler is going to tell us if we assign a value of a wrong type to such a variable or member
@@ -39,3 +50,18 @@ jString = 4;
 ```
 >Error: Type '4' is not assignable to type 'string'.
 
+ ### Assigning the value to variable with string inferred
+// TypeScript can also infer types
+```
+let anotherString = 'This is a string without :string'; 
+
+```
+ Type `string` was inferred from the assigned value
+ 
+`This will still resolve in a compilation error`
+
+```
+anotherString = 4;
+```
+
+>Error: Type '4' is not assignable to type 'string'.
