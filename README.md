@@ -33,7 +33,7 @@ jString = 'This is a string';
 ```
 >No Error
 
-Instead of String try to assign a number to a string will be an Error
+Instead of String try to assign a number to a string then there will be an Error
 ```
 jString = 4;
 ```
