@@ -17,3 +17,20 @@ helps us avoid nasty errors.
 Angular using plain JavaScript is extremely hard. And to be honest: TypeScript will be the
 standard ‘language’ to be used when developing Angular 2 applications. So I definitely
 recommend using TypeScript
+
+## ***USing Types***
+ TypeScripts - well - ```strong typing allows us to define types for our variables and class members```
+ >The compiler is going to tell us if we assign a value of a wrong type to such a variable or member
+ 
+ ### Declaring a variable with a type
+Using the `let` keyword to create a variable (`const` would define an immutable constant)
+```
+let jString: string;
+
+jString = 'This is a string';
+```
+>No Error
+
+Instead of String try to assign a number to a string will be Error
+```jString = 4;```>Error
+
