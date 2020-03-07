@@ -51,7 +51,7 @@ jString = 4;
 >Error: Type '4' is not assignable to type 'string'.
 
  ### Assigning the value to variable with string inferred
-// TypeScript can also infer types
+TypeScript can also infer types
 ```
 let anotherString = 'This is a string without :string'; 
 
