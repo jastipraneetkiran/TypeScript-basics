@@ -2,7 +2,9 @@
 Contains basic type Script theory
 
 ## **TypeScript**
-```TypeScript is a superset to JavaScript, which means, that it compiles into pure JavaScript in the end.```
+```
+TypeScript is a superset to JavaScript, which means, that it compiles into pure JavaScript in the end.
+```
 >First, it provides `strong typing` (that’s where the name comes from).
 
 This means that we can(and should) assign types to our variables and class members. These types won’t compile to
@@ -19,7 +21,7 @@ standard ‘language’ to be used when developing Angular 2 applications. So I 
 recommend using TypeScript
 
 ## ***USing Types***
- TypeScripts - well - ```strong typing allows us to define types for our variables and class members```
+ TypeScripts - well - `strong typing allows us to define types for our variables and class members`
  >The compiler is going to tell us if we assign a value of a wrong type to such a variable or member
  
  ### Declaring a variable with a type
@@ -31,6 +33,9 @@ jString = 'This is a string';
 ```
 >No Error
 
-Instead of String try to assign a number to a string will be Error
-```jString = 4;```>Error
+Instead of String try to assign a number to a string will be an Error
+```
+jString = 4;
+```
+>Error: Type '4' is not assignable to type 'string'.
 
